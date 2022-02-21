@@ -350,6 +350,11 @@ html {
   box-sizing: border-box;
 }
 
+div#parentContainer {
+  display: grid;
+  grid-template-areas: "hamburger" "header" "main-content" "footer" "nav";
+}
+
 /*----------- BODY --------------*/
 body {
   font-size: 16px;
@@ -358,6 +363,7 @@ body {
 
 /*----------- HEADER --------------*/
 header {
+  grid-area: header;
   padding: .5rem 2%;
   background-color: #ffa8f0;
 }
@@ -381,6 +387,7 @@ a.myjump {
 }
 
 nav {
+  grid-area: nav;
   background-color: #b68aff;
 }
 
@@ -418,11 +425,13 @@ nav ul li.active a {
 
 /*----------- HAMBURGER --------------*/
 div#hamburger {
+  grid-area: hamburger;
   background-color: #feff98;
 }
 
 /*----------- MAIN --------------*/
 main {
+  grid-area: main-content;
   padding: 0 2%;
   min-height: 10rem;
   background-color: #b8ddff;
@@ -438,6 +447,7 @@ main p {
 
 /*----------- FOOTER --------------*/
 footer {
+  grid-area: footer;
   background-color: #b5ff98;
   padding: .5rem 2%;
   text-align: center;
