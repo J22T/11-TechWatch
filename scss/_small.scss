@@ -27,9 +27,15 @@ body {
 header {
     grid-area: header;
     padding: .5rem 2%;
-    background-color: #ffa8f0;
-    h1 {margin: 0;}
-    h2 {margin: 0; font-weight: normal;}
+    background-color: $primaryColor;
+    
+    h1 {
+        margin: 0;
+    }
+    h2 {
+        margin: 0;
+        font-weight: normal;
+    }
 }
 
 
@@ -39,7 +45,7 @@ a.jump{
     display: block;
     width: 60px;
     color: white;
-    font-size: 1.7rem;
+    font-size: 3rem;
     padding: .4rem;
     text-decoration: none;
     padding-left: 2%;
@@ -94,9 +100,26 @@ main {
     grid-area: main-content;
     padding: 0 2%;
     min-height: 10rem;
-    background-color: #b8ddff;
-    h1 {margin: 0; padding: 1rem 0 0 0;}
-    p {margin: 0; padding: .5rem 0;}
+    background-color: $primaryColor;
+
+    h1 {
+        margin: 0;
+        padding: 1rem 0 0 0;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        margin: 0;
+        padding: .5rem 0;
+        font-size: 20px;
+        font-weight: $regularWeight;
+        font-family: $fontFamily;
+        font-size: 30px;
+    }
 }
 
 
