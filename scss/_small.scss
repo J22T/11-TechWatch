@@ -35,7 +35,7 @@ header {
 
 
 /*----------- NAVIGATION --------------*/
-a.myjump{
+a.jump{
     display: block;
     width: 60px;
     color: rgba(0,0,0,0.7);
@@ -48,6 +48,7 @@ a.myjump{
 nav {
     grid-area: nav;
     background-color: #b68aff;
+    height: 100vh;
 }
 nav ul {
     list-style-type: none;
