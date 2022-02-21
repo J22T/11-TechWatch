@@ -379,7 +379,7 @@ header h2 {
 a.jump {
   display: block;
   width: 60px;
-  color: rgba(0, 0, 0, 0.7);
+  color: white;
   font-size: 1.7rem;
   padding: .4rem;
   text-decoration: none;
@@ -427,7 +427,7 @@ nav ul li.active a {
 /*----------- HAMBURGER --------------*/
 div#hamburger {
   grid-area: hamburger;
-  background-color: #feff98;
+  background-color: black;
 }
 
 /*----------- MAIN --------------*/
@@ -449,8 +449,9 @@ main p {
 /*----------- FOOTER --------------*/
 footer {
   grid-area: footer;
-  background-color: #b5ff98;
-  padding: .5rem 2%;
+  color: white;
+  background-color: #4d4d4d;
+  padding: 2rem 2%;
   text-align: center;
 }
 
