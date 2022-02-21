@@ -1,4 +1,9 @@
-
+div#parentContainer {
+    grid-template-areas:
+                "header header"
+                "nav main-content"
+                "footer footer";
+}
 
 
 /*----------- BODY --------------*/
@@ -10,9 +15,32 @@
 
 
 /*----------- NAVIGATION --------------*/
-    nav ul {margin-left: 2%;}
-    nav ul li {flex-basis: 25%;}
-    nav ul li a{padding: .5rem 1rem;}
+
+    a.jump {
+        display: none;
+    }
+
+
+    nav {
+
+
+        ul {
+            margin-left: 2%;
+        }
+
+
+        ul li {
+            flex-basis: 25%;
+        }
+
+
+        ul li a {
+            padding: .5rem 1rem;
+            }
+
+            
+    }
+
 
 
 /*----------- MAIN --------------*/
