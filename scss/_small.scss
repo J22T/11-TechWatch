@@ -27,7 +27,7 @@ body {
 header {
     grid-area: header;
     padding: .5rem 2%;
-    background-color: $primaryColor;
+    background-color: darken($secondaryColor, 15%);
     
     h1 {
         margin: 0;
@@ -53,7 +53,7 @@ a.jump{
 
 nav {
     grid-area: nav;
-    background-color: #b68aff;
+    background-color: black;
     height: 100vh;
 }
 nav ul {
@@ -62,6 +62,7 @@ nav ul {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    background-color: lighten($menuColor, 40%);
 }
 nav ul li {
     flex-basis: 100%;
@@ -70,21 +71,22 @@ nav ul li {
 nav ul li a {
     display: block;
     background-color: rgba(0,0,0,0.2);
-    color: #fff;
+    color: black;
     padding: 1rem 0;
     text-decoration: none;
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: 1.7rem;
+    padding-left: 1rem;
+    text-align: left;
 }
 
 
 nav ul li a:hover {
-    background-color: rgba(255,255,255,0.4);
-    color: #000;
+    background-color: lighten($menuColor, 50%);
 }
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.6);
+    background-color: darken($menuColor, 10%);
     color: #fff;
+    border: 1px solid gray;
 }
 
 
