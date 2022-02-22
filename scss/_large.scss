@@ -20,6 +20,12 @@ div#parentContainer {
 
 /*----------- HEADER --------------*/
 
+header {
+        img {
+                margin-left: 1rem;
+        }
+}
+
 
 
 /*----------- NAVIGATION --------------*/
@@ -31,8 +37,20 @@ nav ul li {
         }
 }
 
+nav ul li a {
+        display: block;
+        background-color: rgba(0,0,0,0.2);
+        color: black;
+        padding: 1rem 0;
+        text-decoration: none;
+        font-size: 1.1rem;
+        padding: 1rem;
+        text-align: left;
+    }
+
 
 /*----------- MAIN --------------*/
+
 
 
 

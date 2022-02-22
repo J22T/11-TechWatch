@@ -25,6 +25,12 @@ div#parentContainer {
 
     nav {
         height: auto;
+        background-color: darken($secondaryColor, 20%);
+
+        ul {
+            background-color: lighten($menuColor, 70%);
+        }
+
     }
 
 

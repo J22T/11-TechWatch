@@ -487,6 +487,10 @@ footer {
 
   nav {
     height: auto;
+    background-color: #cccccc;
+  }
+  nav ul {
+    background-color: white;
   }
 
   /*----------- MAIN --------------*/
@@ -503,12 +507,27 @@ footer {
 
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
+  header img {
+    margin-left: 1rem;
+  }
+
   /*----------- NAVIGATION --------------*/
   nav ul li {
     flex-basis: auto;
   }
   nav ul li a {
     padding: .6rem 1rem;
+  }
+
+  nav ul li a {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 1rem 0;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 1rem;
+    text-align: left;
   }
 
   /*----------- MAIN --------------*/
