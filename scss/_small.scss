@@ -99,15 +99,16 @@ div#hamburger {
 
 /*----------- MAIN --------------*/
 main {
-    display: grid;
     grid-area: main-content;
     padding: 0 2%;
     min-height: 10rem;
     background-color: $primaryColor;
 
-    div {
-
-    }
+.parent {
+    // display: grid;
+    // grid-template-columns: 1fr 2fr 1fr;
+    // grid-template-rows: auto;
+}
 
     h1 {
         margin: 0;
