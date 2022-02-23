@@ -541,50 +541,63 @@ footer {
     min-height: 10rem;
     background-color: #f3f6f4;
   }
-  main .parent h2 {
-    font-size: 17px;
-  }
-  main .parent p {
-    font-size: 15px;
-  }
   main .parent .one {
     margin: 1rem;
+  }
+  main .parent .one p {
+    font-size: 30px;
+  }
+  main .parent .one h2 {
+    font-size: 30px;
   }
   main .parent .one .img {
     float: right;
   }
   main .parent .one .img img {
-    height: 150px;
+    height: 250px;
   }
   main .parent .two {
-    margin-bottom: 2rem;
+    margin: 1rem;
+  }
+  main .parent .two p {
+    font-size: 30px;
+  }
+  main .parent .two h2 {
+    font-size: 30px;
   }
   main .parent .two .img {
     float: left;
     margin-right: 1rem;
   }
   main .parent .two .img img {
-    height: 150px;
+    height: 250px;
   }
   main .parent .three {
     margin: 1rem;
   }
+  main .parent .three p {
+    font-size: 30px;
+  }
+  main .parent .three h2 {
+    font-size: 30px;
+  }
   main .parent .three .img {
     float: right;
+    margin-left: 1rem;
   }
   main .parent .three .img img {
-    height: 150px;
+    height: 250px;
   }
-  main h1 {
+  main .parent h1 {
     margin: 0;
     padding: 1rem 0 0 0;
     margin-bottom: 1rem;
     font-size: 30px;
   }
-  main h2 {
+  main .parent h2 {
     font-size: 30px;
   }
-  main p {
+  main .parent p {
     margin: 0;
     padding: .5rem 0;
     font-size: 20px;

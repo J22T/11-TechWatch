@@ -45,56 +45,82 @@ main {
 
     .parent {
 
-        h2 {
-            font-size: 17px;
-        }
-
-        p {
-            font-size: 15px;
-        }
-
         .one {
             margin: 1rem;
+
+            p {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
 
             .img {
                 float: right;
                 
                 img {
-                    height: 150px;
+                    height: 250px;
                 }
             }
         }
 
+
+
+
+
+
         .two {
-            margin-bottom: 2rem;
+            margin: 1rem;
+
+            p {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
 
             .img {
                 float: left;
                 margin-right: 1rem;
                 
-                
                 img {
-                    height: 150px;
-
+                    height: 250px;
                 }
             }
-
         }
+
+
+
+
+
+
 
         .three {
             margin: 1rem;
 
-            .img {
-                float: right;
-
-                img {
-                    height: 150px;
-                }
+            p {
+                font-size: 30px;
             }
 
+            h2 {
+                font-size: 30px;
+            }
+
+            .img {
+                float: right;
+                margin-left: 1rem;
+                
+                img {
+                    height: 250px;
+                }
+            }
         }
 
-    }
+
+
+
 
     h1 {
         margin: 0;
@@ -116,6 +142,7 @@ main {
         font-family: $fontFamily;
         font-size: 20px;
     }
+}
 }
 
 
