@@ -37,6 +37,86 @@ div#parentContainer {
 
 /*----------- MAIN --------------*/
 
+main {
+    grid-area: main-content;
+    padding: 0 2%;
+    min-height: 10rem;
+    background-color: $primaryColor;
+
+    .parent {
+
+        h2 {
+            font-size: 17px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        .one {
+            margin: 1rem;
+
+            .img {
+                float: right;
+                
+                img {
+                    height: 150px;
+                }
+            }
+        }
+
+        .two {
+            margin-bottom: 2rem;
+
+            .img {
+                float: left;
+                margin-right: 1rem;
+                
+                
+                img {
+                    height: 150px;
+
+                }
+            }
+
+        }
+
+        .three {
+            margin: 1rem;
+
+            .img {
+                float: right;
+
+                img {
+                    height: 150px;
+                }
+            }
+
+        }
+
+    }
+
+    h1 {
+        margin: 0;
+        padding: 1rem 0 0 0;
+        margin-bottom: 1rem;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+
+    p {
+        margin: 0;
+        padding: .5rem 0;
+        font-size: 20px;
+        font-weight: $regularWeight;
+        font-family: $fontFamily;
+        font-size: 20px;
+    }
+}
 
 
 /*----------- FOOTER --------------*/

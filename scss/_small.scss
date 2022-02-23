@@ -104,36 +104,105 @@ main {
     min-height: 10rem;
     background-color: $primaryColor;
 
-.parent {
-    // display: grid;
-    // grid-template-columns: 1fr 2fr 1fr;
-    // grid-template-rows: auto;
+    .parent {
+
+        div h1 {
+            font-size: 40px;
+        }
+        .one {
+            h2 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 25px;
+            }
+        .img {
+
+            h2 {
+                font-size: 40px;
+            }
+                    img {
+                        width: 100%;
+                    }
+            }
+        }
+
+
+
+        .two {
+            h2 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 25px;
+            }
+        .img {
+
+            h2 {
+                font-size: 40px;
+            }
+                    img {
+                        width: 100%;
+                    }
+            }
+        }
+
+
+
+
+
+        .three {
+            h2 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 25px;
+            }
+        .img {
+
+            h2 {
+                font-size: 40px;
+            }
+                    img {
+                        width: 100%;
+                    }
+            }
+        }
+
+
+
+
+
+        h1 {
+            margin: 0;
+            padding: 1rem 0 0 0;
+            margin-bottom: 1rem;
+            font-size: 30px;
+        }
+    
+        h2 {
+            font-size: 30px;
+        }
+    
+    
+        p {
+            margin: 0;
+            padding: .5rem 0;
+            font-size: 20px;
+            font-weight: $regularWeight;
+            font-family: $fontFamily;
+            font-size: 20px;
+        }
+
+    }
+
 }
 
-    h1 {
-        margin: 0;
-        padding: 1rem 0 0 0;
-        margin-bottom: 1rem;
-        font-size: 30px;
-    }
 
-    h2 {
-        font-size: 30px;
-    }
 
-    img {
-        width: 100%;
-    }
 
-    p {
-        margin: 0;
-        padding: .5rem 0;
-        font-size: 20px;
-        font-weight: $regularWeight;
-        font-family: $fontFamily;
-        font-size: 20px;
-    }
-}
+
+
 
 
 /*----------- FOOTER --------------*/
@@ -145,6 +214,15 @@ footer {
     text-align: center;
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
