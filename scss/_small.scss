@@ -99,16 +99,27 @@ div#hamburger {
 
 /*----------- MAIN --------------*/
 main {
+    display: grid;
+    // display: flex;
     grid-area: main-content;
     padding: 0 2%;
     min-height: 10rem;
     background-color: $primaryColor;
 
+    div {
+        // grid-template-columns: 1fr;
+        // grid-template-rows: 1fr;
+    }
+
     h1 {
         margin: 0;
         padding: 1rem 0 0 0;
         margin-bottom: 1rem;
-        font-size: 40px;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
     }
 
     img {
@@ -133,6 +144,7 @@ footer {
     background-color: darken($menuColor, 20%);
     padding: 2rem 2%;
     text-align: center;
+    font-size: 20px;
 }
 
 

@@ -434,6 +434,7 @@ div#hamburger {
 
 /*----------- MAIN --------------*/
 main {
+  display: grid;
   grid-area: main-content;
   padding: 0 2%;
   min-height: 10rem;
@@ -443,7 +444,10 @@ main h1 {
   margin: 0;
   padding: 1rem 0 0 0;
   margin-bottom: 1rem;
-  font-size: 40px;
+  font-size: 30px;
+}
+main h2 {
+  font-size: 30px;
 }
 main img {
   width: 100%;
@@ -464,6 +468,7 @@ footer {
   background-color: #4d4d4d;
   padding: 2rem 2%;
   text-align: center;
+  font-size: 20px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
@@ -502,7 +507,6 @@ footer {
   div#parentContainer {
     grid-template-areas: "header" "nav" "main-content" "footer";
     grid-template-columns: auto;
-    max-width: 64rem;
     margin: auto;
   }
 
