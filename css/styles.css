@@ -411,7 +411,7 @@ nav ul li a {
   color: black;
   padding: 1rem 0;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-left: 1rem;
   text-align: left;
 }
@@ -421,8 +421,8 @@ nav ul li a:hover {
 }
 
 nav ul li.active a {
-  background-color: #676767;
-  color: #fff;
+  background-color: #9a9a9a;
+  color: black;
   border: 1px solid gray;
 }
 
@@ -515,19 +515,20 @@ footer {
   nav ul li {
     flex-basis: auto;
   }
-  nav ul li a {
-    padding: .6rem 1rem;
-  }
 
   nav ul li a {
     display: block;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #cdcdcd;
     color: black;
     padding: 1rem 0;
     text-decoration: none;
     font-size: 1.1rem;
-    padding: 1rem;
+    padding: .6rem 1rem;
     text-align: left;
+  }
+
+  nav ul {
+    background-color: #cdcdcd;
   }
 
   /*----------- MAIN --------------*/
