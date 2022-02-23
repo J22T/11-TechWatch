@@ -100,15 +100,13 @@ div#hamburger {
 /*----------- MAIN --------------*/
 main {
     display: grid;
-    // display: flex;
     grid-area: main-content;
     padding: 0 2%;
     min-height: 10rem;
     background-color: $primaryColor;
 
     div {
-        // grid-template-columns: 1fr;
-        // grid-template-rows: 1fr;
+
     }
 
     h1 {
