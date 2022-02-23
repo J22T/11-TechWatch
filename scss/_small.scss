@@ -56,6 +56,7 @@ nav {
     background-color: black;
     height: 100vh;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -64,6 +65,7 @@ nav ul {
     flex-wrap: wrap;
     background-color: lighten($menuColor, 40%);
 }
+
 nav ul li {
     flex-basis: 100%;
 }
@@ -74,7 +76,7 @@ nav ul li a {
     color: black;
     padding: 1rem 0;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-left: 1rem;
     text-align: left;
 }
@@ -107,14 +109,15 @@ main {
     .parent {
 
         div h1 {
-            font-size: 40px;
+            font-size: 30px;
         }
         .one {
+
             h2 {
-                font-size: 40px;
+                font-size: 30px;
             }
             p {
-                font-size: 30px;
+                font-size: 20px;
             }
         .img {
 
@@ -131,10 +134,10 @@ main {
 
         .two {
             h2 {
-                font-size: 40px;
+                font-size: 30px;
             }
             p {
-                font-size: 30px;
+                font-size: 20px;
             }
         .img {
 
@@ -153,10 +156,10 @@ main {
 
         .three {
             h2 {
-                font-size: 40px;
+                font-size: 30px;
             }
             p {
-                font-size: 30px;
+                font-size: 20px;
             }
         .img {
 

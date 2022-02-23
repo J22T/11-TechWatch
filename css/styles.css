@@ -411,7 +411,7 @@ nav ul li a {
   color: black;
   padding: 1rem 0;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 1rem;
   text-align: left;
 }
@@ -440,13 +440,13 @@ main {
   background-color: #f3f6f4;
 }
 main .parent div h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 main .parent .one h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 main .parent .one p {
-  font-size: 30px;
+  font-size: 20px;
 }
 main .parent .one .img h2 {
   font-size: 40px;
@@ -455,10 +455,10 @@ main .parent .one .img img {
   width: 100%;
 }
 main .parent .two h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 main .parent .two p {
-  font-size: 30px;
+  font-size: 20px;
 }
 main .parent .two .img h2 {
   font-size: 40px;
@@ -467,10 +467,10 @@ main .parent .two .img img {
   width: 100%;
 }
 main .parent .three h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 main .parent .three p {
-  font-size: 30px;
+  font-size: 20px;
 }
 main .parent .three .img h2 {
   font-size: 40px;
@@ -545,7 +545,7 @@ footer {
     margin-bottom: 3rem;
   }
   main .parent .one p {
-    font-size: 30px;
+    font-size: 20px;
   }
   main .parent .one h2 {
     font-size: 30px;
@@ -560,7 +560,7 @@ footer {
     margin-bottom: 3rem;
   }
   main .parent .two p {
-    font-size: 30px;
+    font-size: 20px;
   }
   main .parent .two h2 {
     font-size: 30px;
@@ -576,7 +576,7 @@ footer {
     margin: 1rem;
   }
   main .parent .three p {
-    font-size: 30px;
+    font-size: 20px;
   }
   main .parent .three h2 {
     font-size: 30px;
